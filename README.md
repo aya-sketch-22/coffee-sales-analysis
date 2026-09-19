@@ -22,7 +22,8 @@ Data analysis project exploring one year of coffee shop transaction data (March 
 
 ## Files
 - `coffee_sales_analysis.ipynb` — full analysis notebook, runnable in Google Colab
-- `index_1.csv` — primary transaction dataset
+- `index_1.csv` — primary transaction dataset (3,636 rows, Mar 2024 – Mar 2025)
+- `index_2.csv` — secondary dataset used for cross-comparison (262 rows, broader menu)
 
 ## Note on Data Quality
 This project includes a deliberate data-quality check: an initial month-over-month grouping incorrectly combined the same calendar month across different years (e.g., March 2024 + March 2025), inflating that month's apparent total. This was caught and corrected by re-grouping on year+month instead of month name alone — a good reminder to always validate groupings against the underlying time dimension.
